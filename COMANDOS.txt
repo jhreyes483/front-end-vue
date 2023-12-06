@@ -1,0 +1,11 @@
+isntalar vue
+npm install -g npm
+npm install -g @vue/cli
+vue --version
+
+
+arrancar el proyect
+npm run serve
+
+host
+http://192.168.0.5:8080/
