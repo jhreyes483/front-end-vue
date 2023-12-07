@@ -1,9 +1,11 @@
 
 <template>
+    <hr>
     <div id="miComponente">
         <h1> Este es mi componente</h1>
         <h2>{{ subtitulo }}</h2>
     </div>
+    <hr>
 </template>
 
 <script>

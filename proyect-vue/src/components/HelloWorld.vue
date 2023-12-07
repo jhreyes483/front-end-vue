@@ -4,11 +4,19 @@
     <h2> {{ texto }} </h2>
  
   </div>
+    <div  style="background: darkgoldenrod;">
+      desde HelloWorld
+      <MiComponente></MiComponente>
+    </div>
 </template>
 
 <script>
+import MiComponente from './MiComponente.vue';
 export default {
   name: 'HelloWorld',
+  components:{
+    MiComponente
+  },
   props: {
     msg: String
   },
