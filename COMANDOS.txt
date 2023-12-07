@@ -9,3 +9,9 @@ npm run serve
 
 host
 http://192.168.0.5:8080/
+
+"Historial"
+"crecion de componente"
+"incluir componentes"
+"importar css"
+"importacion de js y creacion de header y footer"
