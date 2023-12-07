@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 // var user_routes  = require('./routes/user')
 // var topic_routes = require('./routes/topic')
 // var comment_routes = require('./routes/comment')
+var article_routes = require('./routes/article');
 
 // Middlewares
 
@@ -30,6 +31,7 @@ app.use((req, res, next) => {
 });
 /******************** */
 
+app.use('/api', article_routes);
 /*
 
 // Reescribir rutas
