@@ -1,4 +1,5 @@
 'user string'
+const article = require('../models/article');
 var Article = require('../models/article');
 var validator = require('validator');
 
@@ -60,11 +61,26 @@ var controller = {
        
     },
     getArticles(req, res ){
-        return res.status(200).send({
-            status : 'success',
-            msg    : "Aticulos",
-            params
+
+        Article.find().exec((err, articles) => {
+            console.log(articles,'dddd')
+            if(err || !articles){
+                return res.status(200).send({
+                    status: 'error',
+                    msg   : 'error al devolver articulos'
+                })
+            }
+
+            return res.status(200).send({
+                status : 'success',
+                msg    : "Aticulos",
+                articles
+         
+            });
+
         });
+
+       
     }
  
 
