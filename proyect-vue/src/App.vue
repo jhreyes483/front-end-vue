@@ -1,7 +1,12 @@
 <template>
   <AppHeader></AppHeader>
   <AppSlider></AppSlider>
+
+  <router-view></router-view>
+<!-- 
   <AppBody></AppBody>
+ -->
+
   <AppFooter></AppFooter>
 
 <!-- 
@@ -20,7 +25,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 
 import AppSlider from './components/AppSlider.vue';
-import AppBody from './components/AppBody.vue';
+//import AppBody from './components/AppBody.vue';
 //import './assets/js/bootstrap.bundle.min.js';
 //import './assets/js/popper.min.js';
 //import './assets/js/bootstrap.min.js';
@@ -31,7 +36,7 @@ export default {
     AppHeader,
     AppFooter,
     AppSlider,
-    AppBody
+   
 }
 
 }

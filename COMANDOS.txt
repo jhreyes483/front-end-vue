@@ -15,3 +15,8 @@ http://192.168.0.5:8080/
 "incluir componentes"
 "importar css"
 "importacion de js y creacion de header y footer"
+"creacion de componentes principales"
+"isntalacion de router
+npm install --save vue-router
+"
+"configuracion de router y main.js"
