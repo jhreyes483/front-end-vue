@@ -3,6 +3,7 @@
         <h2>Pagina de pruebas</h2>
         <h3>{{ get_id }}</h3>
         <button class="btn btn-success" @click="updateUserName()">Cambiar nombre</button>
+        <button class="btn btn-warning" @click="redirect()">Redirigir a block</button>
         <p class="mt-1"><b> {{  userName }}</b></p>
     </section>
 </template>
@@ -30,10 +31,13 @@ export default {
         updateUserName(){
            this.userName ="Dev Javier"
            console.log(this.userName, 'this.userName')
+        },
+        redirect(){
+            /** redirecciona a otra url */
+            this.$router.push('/blog');
+            //this.$router.push('/blog/param');// con parametro por get
         }
     },
-
-
 
     data(){
         return {

@@ -25,3 +25,5 @@ npm install --save vue-router
 "ciclo de vida de vue"
 "se crea componente para pagina no encotrada"
 "marcar elemento como activo en nav cambiar color"
+"redirigir a otra ruta en vue"
+
