@@ -31,6 +31,9 @@
                             <router-link active-class="active" to="/mi-componente" class="nav-link" >Pagina 2</router-link> 
                         </li>
                         <li class="nav-item">
+                            <router-link active-class="active" to="/peliculas" class="nav-link" >Pagina 3</router-link> 
+                        </li>
+                        <li class="nav-item">
                             <div class="avatar_mask">
                                 <div class="avatar_mask">
                                     <img src="" class="w-100">

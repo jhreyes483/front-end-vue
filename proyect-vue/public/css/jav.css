@@ -14,7 +14,8 @@
 }
 
 .body-with-card-item{
-    height: 60%;
+    height: 15em;
+    margin-top: 3px;
 }
 
 .body-with-card{
@@ -45,7 +46,14 @@
     margin-left: 0px;
     padding-left: 0px;
     float: right;
+}
 
+.yeargreen{
+    color: rgb(40, 161, 60) !important;
+
+}
+.yearblue{
+    color: blue !important;
 }
 
 .active{
