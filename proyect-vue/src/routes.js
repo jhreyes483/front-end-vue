@@ -27,7 +27,8 @@ const routes = [
         component: Formulario,
     },
     {
-        path: '/pagina',
+        path: '/pagina/:id?',
+        name: 'pagina',
         component: HomePage,
     },
     {
