@@ -7,7 +7,7 @@ import Formulario from './components/FormPage/FormPage.vue';
 import HomePage from './components/HomePage/HomePage.vue';
 import HomeMain from './components/Home/HomeMain.vue';
 import AppErrorComponent from './components/AppErrorComponent.vue';
-import Films from './components/FilmsPage.vue'
+import Films from './components/Movie/FilmsPage.vue'
 
 const routes = [
     {
