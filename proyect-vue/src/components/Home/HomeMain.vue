@@ -23,6 +23,6 @@ sad
 </template>
 <script>
 export default {
-    name: 'ComponenteOne'
+    name: 'HomeMain'
 }
 </script>

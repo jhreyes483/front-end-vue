@@ -6,7 +6,6 @@
   </div>
     <div  style="background: darkgoldenrod;">
       desde HelloWorld
-      <MiComponente></MiComponente>
     </div>
 </template>
 
@@ -15,7 +14,7 @@ import MiComponente from './MiComponente.vue';
 export default {
   name: 'HelloWorld',
   components:{
-    MiComponente
+   // MiComponente
   },
   props: {
     msg: String

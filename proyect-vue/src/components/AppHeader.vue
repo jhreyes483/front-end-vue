@@ -16,19 +16,19 @@
                     </ul>
                     <ul class="navbar-nav navbar-right mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link">inicio</a>
+                            <router-link to="/home" class="nav-link" >inicio</router-link> 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Blog</a>
+                            <router-link to="/blog" class="nav-link" >Blog </router-link> 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Formulario</a>
+                            <router-link to="/formulario" class="nav-link" >Formulario </router-link> 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Pagina 1</a>
+                            <router-link to="/pagina" class="nav-link" >Pagina 1</router-link> 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Pagina 2</a>
+                            <router-link to="/mi-componente" class="nav-link" >Pagina 2</router-link> 
                         </li>
                         <li class="nav-item">
                             <div class="avatar_mask">
