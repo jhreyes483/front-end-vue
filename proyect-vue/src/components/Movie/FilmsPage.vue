@@ -1,11 +1,15 @@
 <template>
     <h1>{{ page_title }}</h1>
+    <div v-if="favorita">
+        La pelicula marcada es:
+    <h2>{{ favorita.title }}</h2>
+    </div>
 
     <div class="row container mx-auto mt-3">
         <div class="col-md-9 ">
         <hr>
         <div v-for="pelicula in peliculas" v-bind:key="pelicula.title" class="card body-with-card-item bg-light">
-            <ItemMovie :pelicula="pelicula"></ItemMovie>
+            <ItemMovie :pelicula="pelicula" v-on:favorita="haLlegadoPeliculaFavorita" ></ItemMovie>
         </div>
     </div>
         <AppSidevar></AppSidevar>
@@ -21,9 +25,17 @@ export default {
         AppSidevar,
         ItemMovie
     },
+    methods:{
+        haLlegadoPeliculaFavorita(favorita){
+            this.favorita = favorita;
+            console.log('favorita que llego al padre', favorita)
+
+        }
+    },
 
     data() {
         return {
+            favorita : null,
             page_title: 'Peliculas',
             peliculas: [
                 {
