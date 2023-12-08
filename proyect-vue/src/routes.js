@@ -6,7 +6,7 @@ import BlogPage from './components/BlogPage/BlogPage.vue';
 import Formulario from './components/FormPage/FormPage.vue';
 import HomePage from './components/HomePage/HomePage.vue';
 import HomeMain from './components/Home/HomeMain.vue';
-
+import AppErrorComponent from './components/AppErrorComponent.vue';
 const routes = [
     {
         path: '/body',
@@ -35,6 +35,13 @@ const routes = [
         path: '/home',
         component: HomeMain,
     },
+
+
+    {
+        path: '/:pathMatch(.*)*',
+        component: AppErrorComponent
+
+    }
 
 ];
 
