@@ -16,22 +16,22 @@
                     </ul>
                     <ul class="navbar-nav navbar-right mr-auto">
                         <li class="nav-item">
-                            <router-link active-class="active" to="/home" class="nav-link" >inicio</router-link> 
+                            <router-link active-class="active" to="/home" class="nav-link">inicio</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link active-class="active" to="/blog" class="nav-link" >Blog </router-link> 
+                            <router-link active-class="active" to="/blog" class="nav-link">Blog </router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link active-class="active" to="/formulario" class="nav-link" >Formulario </router-link> 
+                            <router-link active-class="active" to="/formulario" class="nav-link">Formulario </router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link active-class="active" to="/pagina" class="nav-link" >Pagina 1</router-link> 
+                            <router-link active-class="active" to="/pagina" class="nav-link">Pagina 1</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link active-class="active" to="/mi-componente" class="nav-link" >Pagina 2</router-link> 
+                            <router-link active-class="active" to="/mi-componente" class="nav-link">Pagina 2</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link active-class="active" to="/peliculas" class="nav-link" >Pagina 3</router-link> 
+                            <router-link active-class="active" to="/peliculas" class="nav-link">Peliculas</router-link>
                         </li>
                         <li class="nav-item">
                             <div class="avatar_mask">

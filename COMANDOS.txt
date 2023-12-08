@@ -29,4 +29,7 @@ npm install --save vue-router
 "ver toda la data y v-model"
 "v-if and else"
 "v-for"
+"v-bind:class con condiciona y integracion html"
+"separa componetes y pasar varibles entre los mismos"
+"Reubicando componentes"
 

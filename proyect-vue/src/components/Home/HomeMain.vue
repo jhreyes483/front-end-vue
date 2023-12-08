@@ -1,28 +1,17 @@
 <template>
-<div>
+    <AppSlider></AppSlider>
+  <div>
     <h1> Hola soy componente one</h1>
+    <p> componente 1</p>
 
-    asdfasdf
-asdfasdff
-ReadableStreamDefaultControllersad
-filterssadf
-sad
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  dsfasdfdsf
-
-</div>
-
-
-
+  </div>
 </template>
 <script>
+import AppSlider from '../AppSlider.vue';
 export default {
-    name: 'HomeMain'
+  name: 'HomeMain',
+  components:{
+    AppSlider
+  }
 }
 </script>

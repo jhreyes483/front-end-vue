@@ -1,7 +1,7 @@
 <template>
     <h1>{{ page_title }}</h1>
 
-    <div class="row container mx-auto mt-4">
+    <div class="row container mx-auto mt-3">
         <div class="col-md-9 ">
         <hr>
         <div v-for="pelicula in peliculas" v-bind:key="pelicula.title" class="card body-with-card-item bg-light">

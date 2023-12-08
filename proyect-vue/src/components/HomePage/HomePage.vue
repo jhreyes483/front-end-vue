@@ -1,4 +1,5 @@
 <template>
+        <AppSlider></AppSlider>
     <section id="content">
         <h2>Pagina de pruebas</h2>
         <h3>{{ get_id }}</h3>
@@ -9,6 +10,7 @@
 </template>
 
 <script>
+import AppSlider from '../AppSlider.vue';
 export default {
     name    : "HomePage",
     /** ciclo de vida del componente */
@@ -37,6 +39,9 @@ export default {
             this.$router.push('/blog');
             //this.$router.push('/blog/param');// con parametro por get
         }
+    },
+    components:{
+        AppSlider
     },
 
     data(){

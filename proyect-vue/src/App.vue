@@ -1,41 +1,29 @@
 <template>
   <AppHeader></AppHeader>
-  <AppSlider></AppSlider>
+
 
   <router-view></router-view>
-<!-- 
-  <AppBody></AppBody>
- -->
+
 
   <AppFooter></AppFooter>
 
-<!-- 
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <div style="background: blue;">
-      Desde app
-      <MiComponente></MiComponente>
-    </div>
- -->
+
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
-//import MiComponente from './components/MiComponente.vue';
+
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 
-import AppSlider from './components/AppSlider.vue';
-//import AppBody from './components/AppBody.vue';
-//import './assets/js/bootstrap.bundle.min.js';
-//import './assets/js/popper.min.js';
-//import './assets/js/bootstrap.min.js';
+//import AppSlider from './components/AppSlider.vue';
+
 
 export default {
   name: 'App',
   components: {
     AppHeader,
     AppFooter,
-    AppSlider,
+  //  AppSlider,
    
 }
 
