@@ -9,9 +9,7 @@
             <input type="text" v-model="nombre" class="form-control">
         </div>
         <b>{{ nombre }}</b>
-        <pre>
-        {{ $data }}
-       </pre>
+    
 
         <h2>Directivas condicionales</h2>
         <div class="col-md-4 mx-auto">
@@ -30,6 +28,16 @@
             Eres menor de edad
         </p>
 
+        <h4>v-for</h4>
+        <ol>
+            <li v-for="pelicula in peliculas" :key="pelicula"> {{ pelicula }}</li>
+        </ol>
+
+        <div>
+            <pre>
+        {{ $data }}
+       </pre>
+        </div>
     </section>
 </template>
 
@@ -40,7 +48,8 @@ export default {
         return {
             subtitulo: 'Soy el subtitulo de mi componente',
             nombre: '',
-            edad: 18
+            edad: 18,
+            peliculas : ['Batman vs Superman', 'El señor de los anillos', 'Spiderman','Anabella']
 
         }
     }

@@ -26,4 +26,7 @@ npm install --save vue-router
 "se crea componente para pagina no encotrada"
 "marcar elemento como activo en nav cambiar color"
 "redirigir a otra ruta en vue"
+"ver toda la data y v-model"
+"v-if and else"
+"v-for"
 
