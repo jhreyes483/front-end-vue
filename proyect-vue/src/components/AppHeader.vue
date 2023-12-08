@@ -33,6 +33,7 @@
                         <li class="nav-item">
                             <router-link active-class="active" to="/peliculas" class="nav-link">Peliculas</router-link>
                         </li>
+                        <!-- 
                         <li class="nav-item">
                             <div class="avatar_mask">
                                 <div class="avatar_mask">
@@ -43,6 +44,7 @@
                                 </div>
                             </div>
                         </li>
+                         -->
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"

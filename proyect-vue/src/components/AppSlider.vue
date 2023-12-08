@@ -1,5 +1,6 @@
 <template>
     <div id="carouselExampleIndicators" class="carousel slide container mt-4 slider" data-bs-ride="carousel">
+       <h1> {{ texto }}</h1>
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -32,12 +33,16 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+        
+
     </div>
+    <route-link v-if="showBtn" to="/blog" class="btn btn-sm btn-success mt-1">Blog</route-link>
 </template>
 
 <script>
 export default {
-    name: 'AppSlider'
+    name: 'AppSlider',
+    props: ['texto', 'showBtn']
 
 
 

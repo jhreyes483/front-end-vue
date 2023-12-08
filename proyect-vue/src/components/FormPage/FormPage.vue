@@ -1,5 +1,5 @@
 <template>
-    <AppSlider></AppSlider>
+    <AppSlider texto="Formulario"></AppSlider>
     <section id="content">
         <h2>Formulario</h2>
     </section>

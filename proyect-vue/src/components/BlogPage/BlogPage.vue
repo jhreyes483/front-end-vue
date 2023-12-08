@@ -1,5 +1,8 @@
 <template>
-    <AppSlider></AppSlider>
+    <AppSlider
+    texto ="Blog"
+    >
+    </AppSlider>
     <section id="content">
         <h2> Blog</h2>
 

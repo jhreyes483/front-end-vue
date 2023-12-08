@@ -1,5 +1,5 @@
 <template>
-    <AppSlider></AppSlider>
+    <AppSlider :showBtn="true" texto="Inicio"></AppSlider>
   <div>
     <h1> Hola soy componente one</h1>
     <p> componente 1</p>

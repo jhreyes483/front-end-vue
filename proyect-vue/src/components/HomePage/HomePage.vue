@@ -1,5 +1,5 @@
 <template>
-        <AppSlider></AppSlider>
+        <AppSlider texto="Pagina"></AppSlider>
     <section id="content">
         <h2>Pagina de pruebas</h2>
         <h3>{{ get_id }}</h3>
