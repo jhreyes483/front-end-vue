@@ -22,3 +22,6 @@ npm install --save vue-router
 "configuracion de router y main.js"
 
 "capturar parametros desde url"
+"ciclo de vida de vue"
+"se crea componente para pagina no encotrada"
+"marcar elemento como activo en nav cambiar color"
