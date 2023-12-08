@@ -33,4 +33,4 @@ npm install --save vue-router
 "separa componetes y pasar varibles entre los mismos"
 "Reubicando componentes"
 "props fijas"
-"componentes pasar varible de hijo a padre"
+"componentes->pasar varible de hijo a padre"
