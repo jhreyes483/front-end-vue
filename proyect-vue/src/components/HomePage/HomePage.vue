@@ -2,19 +2,43 @@
     <section id="content">
         <h2>Pagina de pruebas</h2>
         <h3>{{ get_id }}</h3>
+        <button class="btn btn-success" @click="updateUserName()">Cambiar nombre</button>
+        <p class="mt-1"><b> {{  userName }}</b></p>
     </section>
 </template>
 
 <script>
 export default {
-    name: "HomePage",
+    name    : "HomePage",
+    /** ciclo de vida del componente */
+    created(){
+        console.log('Componente creado')
+    },
     mounted(){
         /** capturar parametros desde url */
         this.get_id = this.$route.params.id;
+        console.log('Componente montado')
     },
+    updated(){
+        console.log('Componente actualizado')
+    },
+    unmounted(){
+        console.log('Componente eliminado')
+    },
+    /****************** */
+    methods: {
+        updateUserName(){
+           this.userName ="Dev Javier"
+           console.log(this.userName, 'this.userName')
+        }
+    },
+
+
+
     data(){
         return {
-            get_id : null
+            get_id : null,
+            userName: "Javier Reyes",
         };
     }
 }
