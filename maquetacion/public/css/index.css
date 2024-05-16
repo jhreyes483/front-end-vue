@@ -1,54 +1,96 @@
-body{
-    text-align: center; /* centra todo el contedo */
+body {
+    text-align: center;
+    /* centra todo el contedo */
     margin: 0px;
     padding: 0px;
     /** fuentes */
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: antialiased;
 }
 
-#header {
-    height: 120px;
-    width: 100%;
+:root {
+    --height-nav: 46px;
+    --width-nav: 2px;
+    --font-size-nav: 20px;
+    --padding-top-item: 7px;
+    --padding-booton-item: 0px;
+    --width-item: 200px;
+    /** colors **/
+    --my-red: red;
+    --my-blue: blue;
+    --my-green: aquamarine;
+    --my-green-border: #61dafb;
+}
+
+.ul-container {
+    margin-top: 0px;
     background: white;
-    border-bottom: 1px solid #ccc;
-    border-top: 3px solid #61dafb;
+    border-bottom: 3px solid var(--my-green-border);
+    border-top: 3px solid var(--my-green-border);
+    display: flex;
+    flex-direction: row;  /* row -> los deja en eje x , column los pasa al eje y */
+    flex-wrap: wrap; /* cuando los elementos no caben los tira hacia abajo*/
 }
 
 
-#logo{
-    width: 30%;
-    font-size: 30px;
-    float: left;
-    max-width: 35px;
+.li-item {
+    font-size: var(--font-size-nav);
+    padding-top: var(--padding-top-item);
+    height: var(--height-nav);
+    width: var(--width-item);
+    flex-grow: 1;
+    list-style: none;
+    display: inline-block;
 }
 
-#logo img{
-    display: block;
-    float: left;
-    height: 60px;
-    margin-top: -10px;
-    margin-right: -10px;
+.li-item a {
+    text-decoration: none;
+    color: #444;
+    transform: 300ms all;
 }
 
-#brand{
-    display: block;
+.li-item a:hover {
+    color: #40c0e4;
+}
+
+.img-logo {
+    border-radius: 3em;
+    padding: 0px;
     margin: 0px;
-    float: left;
+    width: 55px;
+    animation: girar infinite 30s linear;
 }
 
-.center{
-    width: 75%;
-    margin: 0px auto;
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
+.container-logo {
+    padding: 0px;
+    align-items: start;
+    display: flex;
 }
 
 
-#menu{
-    width: 70%;
-    float: right;
-    font-size: 18px;
+.text-logo {
+    padding-top: var(--padding-top-item) !important;
+}
 
+.bg-red {
+    background-color: var(--my-red);
+}
+
+.bg-blue {
+    background-color: var(--my-blue);
+}
+
+.bg-green {
+    background-color: var(--my-green);
 }
