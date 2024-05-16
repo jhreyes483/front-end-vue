@@ -13,7 +13,7 @@ var controller = {
     
         return res.status(200).send({
             curso: 'Master en Frameworks JS',
-            autor: 'Víctor Robles WEB',
+            autor: 'Jav dev',
             url: 'victorroblesweb.es',
             hola
         });
