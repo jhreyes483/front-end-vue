@@ -94,3 +94,15 @@ body {
 .bg-green {
     background-color: var(--my-green);
 }
+
+/*** end css nav  ***/
+/*** ini css slider ***/
+
+#slider{
+    width: 100%; /* ancho */
+    height: 350px; /* alto */
+    line-height: 320px; /* queda en el medio */
+    background-color: var(--my-green-border);
+    color: white;
+    text-shadow: 0px 0px 5px #444; /* shado de las letras*/
+}
